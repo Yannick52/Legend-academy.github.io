@@ -1,0 +1,379 @@
+.page-container {
+    background: #2c1351;
+    color: #fff;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    z-index: 2;
+    box-shadow: -5px 0 7px rgba(0, 0, 0, .15)
+}
+
+.show .page-container {
+    max-width: 350px
+}
+
+.payment-container .modal-body,
+.payment-page-form .modal-body {
+    min-height: 250px
+}
+
+.payment-container .card-footer,
+.payment-container .modal-footer,
+.payment-page-form .card-footer,
+.payment-page-form .modal-footer {
+    padding: 0;
+    display: block;
+    border: 0
+}
+
+.payment-container .card-footer .btn,
+.payment-container .modal-footer .btn,
+.payment-page-form .card-footer .btn,
+.payment-page-form .modal-footer .btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: left;
+    border: 0;
+    position: relative
+}
+
+.payment-container .card-footer .btn:active:focus,
+.payment-container .card-footer .btn:focus,
+.payment-container .modal-footer .btn:active:focus,
+.payment-container .modal-footer .btn:focus,
+.payment-page-form .card-footer .btn:active:focus,
+.payment-page-form .card-footer .btn:focus,
+.payment-page-form .modal-footer .btn:active:focus,
+.payment-page-form .modal-footer .btn:focus {
+    box-shadow: none
+}
+
+.payment-container .card-footer .btn .text,
+.payment-container .modal-footer .btn .text,
+.payment-page-form .card-footer .btn .text,
+.payment-page-form .modal-footer .btn .text {
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.payment-container .card-footer .btn .price,
+.payment-container .modal-footer .btn .price,
+.payment-page-form .card-footer .btn .price,
+.payment-page-form .modal-footer .btn .price {
+    text-align: right
+}
+
+.payment-container .custom-select,
+.payment-container .form-control,
+.payment-page-form .custom-select,
+.payment-page-form .form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 0 0 1px;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: none
+}
+
+.payment-container .custom-select:focus,
+.payment-container .form-control:focus,
+.payment-container .input-group .input-group-append,
+.payment-container .input-group .input-group-prepend,
+.payment-page-form .custom-select:focus,
+.payment-page-form .form-control:focus,
+.payment-page-form .input-group .input-group-append,
+.payment-page-form .input-group .input-group-prepend {
+    box-shadow: none
+}
+
+.payment-container .custom-select:focus,
+.payment-container .custom-select option,
+.payment-page-form .custom-select:focus,
+.payment-page-form .custom-select option {
+    background-color: #2c1351;
+    color: #fff
+}
+
+.payment-container .custom-select,
+.payment-page-form .custom-select {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 30.727 30.727'%3E%3Cpath d='M29.994 10.183L15.363 24.812.733 10.184a2.5 2.5 0 113.536-3.536l11.095 11.093L26.461 6.647a2.5 2.5 0 113.533 3.536z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23FFF'/%3E%3C/svg%3E")
+}
+
+.payment-container .phone_number_flag .input-group-text,
+.payment-page-form .phone_number_flag .input-group-text {
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 1rem
+}
+
+.payment-container .phone_number_flag .input-group-text.is-invalid,
+.payment-page-form .phone_number_flag .input-group-text.is-invalid {
+    border-bottom-color: #e5625c
+}
+
+.payment-container .brand-icon,
+.payment-page-form .brand-icon {
+    background: none;
+    border-width: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+    padding: 0
+}
+
+body {
+    background: rgba(0, 0, 0, .6)
+}
+
+.btn,
+.h6,
+body,
+h6 {
+    font-size: .9rem
+}
+
+label {
+    margin-bottom: 0
+}
+
+.modal-dialog {
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column
+}
+
+.modal-dialog .modal-content {
+    background: none;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.modal-dialog .modal-content .modal-close {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: -15px;
+    right: -15px;
+    background: #fff;
+    z-index: 10;
+    padding: .5rem;
+    border-radius: 50rem;
+    font-size: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    color: #1b1b1b;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1
+}
+
+.modal-dialog .modal-content .modal-close:before {
+    content: "\2715"
+}
+
+.modal-dialog .modal-content .modal-content-child {
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    border-radius: .25rem
+}
+
+.modal-dialog .modal-content .page-container {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem
+}
+
+.modal-dialog .modal-content.show .nav-container {
+    margin-right: 0;
+    opacity: 1
+}
+
+.modal-dialog .modal-content.show .page-container {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.modal-dialog .secured-by {
+    text-align: center
+}
+
+.form-errors {
+    color: #fa755a
+}
+
+.loader-container {
+    max-width: 100%
+}
+
+.loader-container .loader-message {
+    word-wrap: break-word
+}
+
+.btn-close {
+    background-color: #fff
+}
+
+.modal-component-title {
+    border-bottom-color: #524369;
+    padding-top: .57rem;
+    padding-bottom: .57rem;
+    font-size: 80%
+}
+
+.modal-component-title img {
+    height: 2rem;
+    width: 2.3rem
+}
+
+.test-mode {
+    background: #bd3f3f;
+    color: #fff;
+    text-align: center;
+    padding: .3rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99999
+}
+
+.payment-page-wrapper {
+    margin-top: 5rem;
+    margin-bottom: 5rem
+}
+
+.payment-page-container {
+    background: #fff;
+    box-shadow: 0 -1px 10px 0 rgba(50, 50, 93, .13), 0 3px 6px 0 rgba(0, 0, 0, .07)
+}
+
+.payment-page-container .secured-by {
+    text-align: center
+}
+
+.payment-page-form {
+    box-shadow: -9px -1px 10px 0 rgba(0, 0, 0, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+    margin: -1.5rem -1.5rem -1.5rem 0;
+    min-height: 400px;
+    border-width: 0
+}
+
+.payment-page-description {
+    min-height: 10rem;
+    color: #333
+}
+
+.payment-page-description h1 {
+    font-size: 1.5rem
+}
+
+.payment-page-description h2 {
+    font-size: 1.1rem
+}
+
+.payment-page-description p {
+    margin: 0
+}
+
+.payment-page-description img {
+    max-width: 100%
+}
+
+.payment-page-description iframe {
+    width: 100%;
+    height: 400px
+}
+
+.page-image {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 14rem;
+    box-shadow: inset 0 -9px 11px rgba(0, 0, 0, .16);
+    border-top-left-radius: .25rem
+}
+
+.page-image.no-image {
+    height: 2rem;
+    box-shadow: none
+}
+
+.page-heading {
+    text-align: center;
+    padding: 0 1rem;
+    color: #333
+}
+
+.page-heading h6 {
+    padding: .5rem;
+    background-color: #fff;
+    border-radius: 50rem;
+    margin: -1.1rem auto .5rem;
+    white-space: nowrap;
+    max-width: 390px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3)
+}
+
+.payment-page-footer {
+    padding: 1rem 3rem
+}
+
+.payment-page-process-btn {
+    height: 3rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.payment-process-close-btn {
+    color: #fff
+}
+
+@media (max-width:767px) {
+    .payment-page-form {
+        margin: auto
+    }
+
+    .payment-page-wrapper {
+        margin-top: 0;
+        margin-bottom: 3rem
+    }
+
+    .payment-page-wrapper .col-sw-12 {
+        padding: 0
+    }
+
+    .payment-page-description {
+        height: auto
+    }
+}
+
+.show-process .row.no-gutters>.col-md-7,
+.show-process .row.no-gutters>.fixed-bottom {
+    display: none !important
+}
+
+.show-process .payment-process-close-btn {
+    display: inline !important
+}
+
+.show-process .payment-page-wrapper {
+    margin-bottom: 0
+}
+
+.show-process .payment-page-process {
+    display: block !important
+}
